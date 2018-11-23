@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>run_scan</name>
+  <version>0.0.0</version>
+  <description>The run_scan package runs mandala mapping on a Clearpath Husky. It controls the Husky in a linear direction while stopping to scan at specified intervals.</description>
+  <maintainer email="nicholas.c.charron@gmail.com">Nick</maintainer>
+
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>roslib</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+
+  <export>
+
+  </export>
+</package>
